@@ -1,0 +1,10 @@
+PBMC3K data from
+10X Genomics.
+
+Mouse_early data from 
+Qiu C, Cao J, Martin B K, et al. Systematic reconstruction of cellular trajectories across mouse embryogenesis[J]. Nature genetics, 2022, 54(3): 328-341.
+
+Mouse_later data from 
+Qiu C, Cao J, Martin B K, et al. Systematic reconstruction of cellular trajectories across mouse embryogenesis[J]. Nature genetics, 2022, 54(3): 328-341.
+
+%对原始基因表达矩阵按基因做过归一化（缩放到[0,1]）
