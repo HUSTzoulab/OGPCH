@@ -66,6 +66,52 @@ Compare_25_plot('PBMC3K')
 
 
 
+## zeisel example
+
+Data from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE60631.  
+This is a hierarchical dataset.
+
+
+```matlab
+# finding markers
+pre_OGPCH_HIE('zeisel',5000);
+OGPCH_HIE('zeisel',0.0074);
+```
+
+```python
+get_accuracy('zeisel','HIE','knn','OGPCH')
+accuracy_line_chart('zeisel','knn')
+```
+![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_knn_Accuracy_Compare.png)
+
+```python
+kappa(('zeisel','HIE','knn','OGPCH')
+kappa_line_chart('zeisel','knn')
+```
+![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_knn_Kappa_Compare.png)
+
+To prove the robustness of random selection constraints, randomly selecte 100 constraints and calculate the kappa coefficients for classification.
+```python
+tuning_kappa_sam('zeisel', 'HIE', 'knn')
+robust_voilin('zeisel')
+```
+![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_violin.png)
+
+Restore the original hierarchical structure using 45 genes with a 100% accuracy rate.
+```python
+tree_plot('zeisel')
+```
+![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_tree.png)
+
+
+#TSNE plot
+```python
+Compare_25_plot('zeisel')
+```
+![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_compare_25.png)
+
+
+
 
 
 
