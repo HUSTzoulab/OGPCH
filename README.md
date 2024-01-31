@@ -152,7 +152,7 @@ Restore the original hierarchical structure using 100 genes with a good accuracy
 ```python
 tree_plot('Mouse_E9_5')
 ```
-![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_tree.png)
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_tree.png" width = "600" height = "700"  /><div>
 
 
 
