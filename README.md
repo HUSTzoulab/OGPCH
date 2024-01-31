@@ -41,7 +41,7 @@ get_accuracy('PBMC3K','FLAT','knn','OGPCH')
 accuracy_line_chart('PBMC3K','knn')
 ```
 
-<div align=center><img src="https://s11.ax1x.com/2024/01/31/pFMu6xS.png" width = "400" height = "270"  /></div>
+<div align=center><img src="https://z4a.net/images/2024/01/31/PBMC3K_knn_Accuracy_Compare.png" width = "400" height = "270"  /></div>
 
 ```python
 kappa(('PBMC3K','FLAT','knn','OGPCH')
@@ -55,7 +55,7 @@ To prove the robustness of random selection constraints, randomly selecte 100 co
 tuning_kappa_sam('PBMC3K', 'FLAT', 'knn')
 robust_voilin('PBMC3K')
 ```
-<div align=center><img src="https://z4a.net/images/2024/01/31/PBMC3K_knn_Kappa_Compare.png" width = "200" height = "300"  /></div>
+<div align=center><img src="https://z4a.net/images/2024/01/31/PBMC3K_violin.png" width = "200" height = "300"  /></div>
 
 
 
@@ -63,7 +63,7 @@ robust_voilin('PBMC3K')
 #TSNE plot
 Compare_25_plot('PBMC3K')
 ```
-![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_compare_25.png)
+![png](https://z4a.net/images/2024/01/31/PBMC3K_compare_25.png)
 
 
 
