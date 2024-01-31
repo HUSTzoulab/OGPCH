@@ -50,6 +50,21 @@ kappa_line_chart('PBMC3K','knn')
 
 ![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_knn_Kappa_Compare.png)
 
+To prove the robustness of random selection constraints, randomly selecte 100 constraints and calculate the kappa coefficients for classification.
+
+```python
+tuning_kappa_sam('PBMC3K', 'FLAT', 'knn')
+robust_voilin('PBMC3K')
+```
+
+![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_violin.png)
+
+
+
+
+
+
+
 
 
 
