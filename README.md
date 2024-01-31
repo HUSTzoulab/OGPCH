@@ -63,7 +63,7 @@ robust_voilin('PBMC3K')
 #TSNE plot
 Compare_25_plot('PBMC3K')
 ```
-![png](https://github.com/HUSTzoulab/OGPCH/blob/main/picturesPBMC3K_compare_25.png)
+![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_compare_25.png)
 
 
 
