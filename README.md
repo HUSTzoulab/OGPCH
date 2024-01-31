@@ -146,7 +146,7 @@ robust_voilin('Mouse_E9_5')
 ```
 ![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_violin.png)
 
-Restore the original hierarchical structure using 100 genes with a 100% accuracy rate.
+Restore the original hierarchical structure using 100 genes with a good accuracy rate.
 ```python
 tree_plot('Mouse_E9_5')
 ```
