@@ -98,7 +98,7 @@ To prove the robustness of random selection constraints, randomly selecte 100 co
 tuning_kappa_sam('zeisel', 'HIE', 'knn')
 robust_voilin('zeisel')
 ```
-![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_violin.png)
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_violin.png" width = "200" height = "300"  /><div>
 
 Restore the original hierarchical structure using 45 genes with a 100% accuracy rate.
 ```python
@@ -146,7 +146,7 @@ To prove the robustness of random selection constraints, randomly selecte 100 co
 tuning_kappa_sam('Mouse_E9_5', 'HIE', 'knn')
 robust_voilin('Mouse_E9_5')
 ```
-![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_violin.png)
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_violin.png" width = "200" height = "300"  /><div>
 
 Restore the original hierarchical structure using 100 genes with a good accuracy rate.
 ```python
