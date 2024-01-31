@@ -84,26 +84,26 @@ OGPCH_HIE('zeisel',0.000006,0.000006);
 get_accuracy('zeisel','HIE','knn','OGPCH')
 accuracy_line_chart('zeisel','knn')
 ```
-<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_knn_Accuracy_Compare.png" width = "400" height = "270"  /><div>
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_knn_Accuracy_Compare.png" width = "400" height = "270"  /></div>
 
 ```python
 kappa('zeisel','HIE','knn','OGPCH')
 kappa_line_chart('zeisel','knn')
 ```
-<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_knn_Kappa_Compare.png" width = "400" height = "270"  /><div>
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_knn_Kappa_Compare.png" width = "400" height = "270"  /></div>
 
 To prove the robustness of random selection constraints, randomly selecte 100 constraints and calculate the kappa coefficients for classification.
 ```python
 tuning_kappa_sam('zeisel', 'HIE', 'knn')
 robust_voilin('zeisel')
 ```
-<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_violin.png" width = "200" height = "300"  /><div>
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_violin.png" width = "200" height = "300"  /></div>
 
 Restore the original hierarchical structure using 45 genes with a 100% accuracy rate.
 ```python
 tree_plot('zeisel')
 ```
-<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_tree.png" width = "600" height = "700"  /><div>
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_tree.png" width = "600" height = "700"  /></div>
 
 
 
@@ -132,26 +132,26 @@ OGPCH_HIE('Mouse_E9_5',0.0003,0.00001);
 get_accuracy('Mouse_E9_5','HIE','knn','OGPCH')
 accuracy_line_chart('Mouse_E9_5','knn')
 ```
-<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_knn_Accuracy_Compare.png" width = "400" height = "270"  /><div>
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_knn_Accuracy_Compare.png" width = "400" height = "270"  /></div>
 
 ```python
 kappa('Mouse_E9_5','HIE','knn','OGPCH')
 kappa_line_chart('Mouse_E9_5','knn')
 ```
-<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_knn_Kappa_Compare.png" width = "400" height = "270"  /><div>
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_knn_Kappa_Compare.png" width = "400" height = "270"  /></div>
 
 To prove the robustness of random selection constraints, randomly selecte 100 constraints and calculate the kappa coefficients for classification.
 ```python
 tuning_kappa_sam('Mouse_E9_5', 'HIE', 'knn')
 robust_voilin('Mouse_E9_5')
 ```
-<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_violin.png" width = "200" height = "300"  /><div>
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_violin.png" width = "200" height = "300"  /></div>
 
 Restore the original hierarchical structure using 100 genes with a good accuracy rate.
 ```python
 tree_plot('Mouse_E9_5')
 ```
-<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_tree.png" width = "600" height = "700"  /><div>
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_tree.png" width = "600" height = "700"  /></div>
 
 
 
