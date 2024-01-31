@@ -40,14 +40,12 @@ OGPCH_FLAT('PBMC3K',0.0074);
 get_accuracy('PBMC3K','FLAT','knn','OGPCH')
 accuracy_line_chart('PBMC3K','knn')
 ```
-
 ![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_knn_Accuracy_Compare.png)
 
 ```python
 kappa(('PBMC3K','FLAT','knn','OGPCH')
 kappa_line_chart('PBMC3K','knn')
 ```
-
 ![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_knn_Kappa_Compare.png)
 
 To prove the robustness of random selection constraints, randomly selecte 100 constraints and calculate the kappa coefficients for classification.
@@ -56,7 +54,6 @@ To prove the robustness of random selection constraints, randomly selecte 100 co
 tuning_kappa_sam('PBMC3K', 'FLAT', 'knn')
 robust_voilin('PBMC3K')
 ```
-
 ![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_violin.png)
 
 #TSNE plot
@@ -64,7 +61,7 @@ robust_voilin('PBMC3K')
 ```python
 Compare_25_plot('PBMC3K')
 ```
-
+![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_compare_25.png)
 
 
 
