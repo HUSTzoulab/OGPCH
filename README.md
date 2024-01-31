@@ -3,6 +3,7 @@
 Matlab code for genetic marker selection using linear programming and Python code for evaluating selected genes.
 
 The version of Matlab is R2020a, the required toolkit: cplex12.10
+The version of Python is 3.10.2, the required module: numpy, pandas, scipy, sklearn, matplotlib, seaborn
 
 There are four main functions for finding markers using MATLAB.  
 First, OGPCH.pre_OGPCH_FLAT(dataset,cons=5000), data preprocessing and saving the variables required for subsequent solving.
@@ -30,13 +31,19 @@ Data from https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc
 
 
 ```matlab
+# finding markers
 pre_OGPCH_FLAT('PBMC3K',5000);
 OGPCH_FLAT('PBMC3K',0.0074);
+```
 
+```python
+get_accuracy('PBMC3K','FLAT','knn','OGPCH')
+accuracy_line_chart('PBMC3K','knn')
 ```
 
 
 
 
 
-The version of Python is 3.10.2, the required module: numpy, pandas, scipy, sklearn, matplotlib, seaborn
+
+
