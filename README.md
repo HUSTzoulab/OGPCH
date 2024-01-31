@@ -56,9 +56,10 @@ robust_voilin('PBMC3K')
 ```
 ![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_violin.png)
 
-#TSNE plot
+
 
 ```python
+#TSNE plot
 Compare_25_plot('PBMC3K')
 ```
 ![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_compare_25.png)
@@ -74,8 +75,8 @@ This is a hierarchical dataset.
 
 ```matlab
 # finding markers
-pre_OGPCH_HIE('zeisel',5000);
-OGPCH_HIE('zeisel',0.0074);
+pre_OGPCH_HIE('zeisel',5000,5000);
+OGPCH_HIE('zeisel',0.000006,0.000006);
 ```
 
 ```python
@@ -85,7 +86,7 @@ accuracy_line_chart('zeisel','knn')
 ![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_knn_Accuracy_Compare.png)
 
 ```python
-kappa(('zeisel','HIE','knn','OGPCH')
+kappa('zeisel','HIE','knn','OGPCH')
 kappa_line_chart('zeisel','knn')
 ```
 ![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_knn_Kappa_Compare.png)
@@ -104,11 +105,61 @@ tree_plot('zeisel')
 ![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_tree.png)
 
 
-#TSNE plot
+
 ```python
+#TSNE plot
 Compare_25_plot('zeisel')
 ```
 ![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_compare_25.png)
+
+
+
+
+## Mouse_E9.5 example
+
+Data from https://tome.gs.washington.edu/.    
+This is a huge hierarchical dataset with over one hundred thousand cells. OGPCH can find its markers very quickly.
+
+
+```matlab
+# finding markers
+pre_OGPCH_HIE('Mouse_E9_5',5000,5000);
+OGPCH_HIE('Mouse_E9_5',0.0003,0.00001);
+```
+
+```python
+get_accuracy('Mouse_E9_5','HIE','knn','OGPCH')
+accuracy_line_chart('Mouse_E9_5','knn')
+```
+![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_knn_Accuracy_Compare.png)
+
+```python
+kappa('Mouse_E9_5','HIE','knn','OGPCH')
+kappa_line_chart('Mouse_E9_5','knn')
+```
+![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_knn_Kappa_Compare.png)
+
+To prove the robustness of random selection constraints, randomly selecte 100 constraints and calculate the kappa coefficients for classification.
+```python
+tuning_kappa_sam('Mouse_E9_5', 'HIE', 'knn')
+robust_voilin('Mouse_E9_5')
+```
+![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_violin.png)
+
+Restore the original hierarchical structure using 100 genes with a 100% accuracy rate.
+```python
+tree_plot('Mouse_E9_5')
+```
+![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_tree.png)
+
+
+
+```python
+#TSNE plot
+Compare_25_plot('Mouse_E9_5')
+```
+![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_compare_25.png)
+
 
 
 
