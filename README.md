@@ -41,6 +41,8 @@ get_accuracy('PBMC3K','FLAT','knn','OGPCH')
 accuracy_line_chart('PBMC3K','knn')
 ```
 
+![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_knn_Accuracy_Compare.png)
+
 
 
 
