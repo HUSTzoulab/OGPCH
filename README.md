@@ -48,7 +48,7 @@ accuracy_line_chart('PBMC3K','knn')
 kappa(('PBMC3K','FLAT','knn','OGPCH')
 kappa_line_chart('PBMC3K','knn')
 ```
-![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_knn_Kappa_Compare.png)
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_knn_Kappa_Compare.png" width = "400" height = "270"  /><div>
 
 To prove the robustness of random selection constraints, randomly selecte 100 constraints and calculate the kappa coefficients for classification.
 
@@ -85,13 +85,13 @@ OGPCH_HIE('zeisel',0.000006,0.000006);
 get_accuracy('zeisel','HIE','knn','OGPCH')
 accuracy_line_chart('zeisel','knn')
 ```
-![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_knn_Accuracy_Compare.png)
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_knn_Accuracy_Compare.png" width = "400" height = "270"  /><div>
 
 ```python
 kappa('zeisel','HIE','knn','OGPCH')
 kappa_line_chart('zeisel','knn')
 ```
-![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_knn_Kappa_Compare.png)
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_knn_Kappa_Compare.png" width = "400" height = "270"  /><div>
 
 To prove the robustness of random selection constraints, randomly selecte 100 constraints and calculate the kappa coefficients for classification.
 ```python
@@ -133,13 +133,13 @@ OGPCH_HIE('Mouse_E9_5',0.0003,0.00001);
 get_accuracy('Mouse_E9_5','HIE','knn','OGPCH')
 accuracy_line_chart('Mouse_E9_5','knn')
 ```
-![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_knn_Accuracy_Compare.png)
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_knn_Accuracy_Compare.png" width = "400" height = "270"  /><div>
 
 ```python
 kappa('Mouse_E9_5','HIE','knn','OGPCH')
 kappa_line_chart('Mouse_E9_5','knn')
 ```
-![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_knn_Kappa_Compare.png)
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_knn_Kappa_Compare.png" width = "400" height = "270"  /><div>
 
 To prove the robustness of random selection constraints, randomly selecte 100 constraints and calculate the kappa coefficients for classification.
 ```python
