@@ -26,6 +26,9 @@ Fourth, OGPCH.OGPCH_HIE(dataset,mu,nu), Solving linear programming models.
 
 ## PBMC3K example
 
+Data from https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz.  
+
+
 ```matlab
 pre_OGPCH_FLAT('PBMC3K',5000);
 OGPCH_FLAT('PBMC3K',0.0074);
