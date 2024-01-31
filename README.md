@@ -4,12 +4,12 @@ Matlab code for genetic marker selection using linear programming and Python cod
 
 The version of Matlab is R2020a, the required toolkit: cplex12.10
 
-There are four main functions for finding markers using MATLAB. 
+There are four main functions for finding markers using MATLAB.  
 First, OGPCH.pre_OGPCH_FLAT(dataset,cons=5000), data preprocessing and saving the variables required for subsequent solving.
 - dataset: the name of gene dataset
 - cons: the number of constraints(default 5000)
 
-second, OGPCH.OGPCH_FLAT(dataset,mu), Solving linear programming models.
+Second, OGPCH.OGPCH_FLAT(dataset,mu), Solving linear programming models.
 - dataset: the name of gene dataset
 - mu: the coefficient of the error in the objective function
 
