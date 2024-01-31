@@ -59,8 +59,11 @@ robust_voilin('PBMC3K')
 
 ![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_violin.png)
 
+#TSNE plot
 
-
+```python
+Compare_25_plot('PBMC3K')
+```
 
 
 
