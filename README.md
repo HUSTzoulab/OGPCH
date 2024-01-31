@@ -6,23 +6,23 @@ The version of Matlab is R2020a, the required toolkit: cplex12.10
 The version of Python is 3.10.2, the required module: numpy, pandas, scipy, sklearn, matplotlib, seaborn
 
 There are four main functions for finding markers using MATLAB.  
-First, OGPCH.pre_OGPCH_FLAT(dataset,cons=5000), data preprocessing and saving the variables required for subsequent solving.
-- dataset: the name of gene dataset
-- cons: the number of constraints(default 5000)
+- First, OGPCH.pre_OGPCH_FLAT(dataset,cons=5000), data preprocessing and saving the variables required for subsequent solving.
+  - dataset: the name of gene dataset
+  - cons: the number of constraints(default 5000)
 
-Second, OGPCH.OGPCH_FLAT(dataset,mu), Solving linear programming models.
-- dataset: the name of gene dataset
-- mu: the coefficient of the error in the objective function
+- Second, OGPCH.OGPCH_FLAT(dataset,mu), Solving linear programming models.
+  - dataset: the name of gene dataset
+  - mu: the coefficient of the error in the objective function
 
-Third, OGPCH.pre_OGPCH_HIE(dataset,cons1=5000,cons2=5000), data preprocessing and saving the variables required for subsequent solving.
-- dataset: the name of gene dataset
-- cons1: the number of constraints(considering high-level cell labels, default 5000)
-- cons2: the number of constraints(considering low-level cell labels, default 5000)
+- Third, OGPCH.pre_OGPCH_HIE(dataset,cons1=5000,cons2=5000), data preprocessing and saving the variables required for subsequent solving.
+  - dataset: the name of gene dataset
+  - cons1: the number of constraints(considering high-level cell labels, default 5000)
+  - cons2: the number of constraints(considering low-level cell labels, default 5000)
 
-Fourth, OGPCH.OGPCH_HIE(dataset,mu,nu), Solving linear programming models.
-- dataset: the name of gene dataset
-- mu: the coefficient of the error considering low-level labels in the objective function
-- nu: the coefficient of the error considering high-level labels in the objective function
+- Fourth, OGPCH.OGPCH_HIE(dataset,mu,nu), Solving linear programming models.
+  - dataset: the name of gene dataset
+  - mu: the coefficient of the error considering low-level labels in the objective function
+  - nu: the coefficient of the error considering high-level labels in the objective function
 
 
 ## PBMC3K example
