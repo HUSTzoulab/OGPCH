@@ -104,7 +104,7 @@ Restore the original hierarchical structure using 45 genes with a 100% accuracy 
 ```python
 tree_plot('zeisel')
 ```
-<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_tree.png" width = "800" height = "700"  /><div>
+<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/zeisel/zeisel_tree.png" width = "500" height = "600"  /><div>
 
 
 
