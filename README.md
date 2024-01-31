@@ -47,7 +47,7 @@ accuracy_line_chart('PBMC3K','knn')
 kappa(('PBMC3K','FLAT','knn','OGPCH')
 kappa_line_chart('PBMC3K','knn')
 ```
-<div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_knn_Kappa_Compare.png" width = "400" height = "270"  /></div>
+<div align=center><img src="https://z4a.net/images/2024/01/31/PBMC3K_knn_Kappa_Compare.png" width = "400" height = "270"  /></div>
 
 To prove the robustness of random selection constraints, randomly selecte 100 constraints and calculate the kappa coefficients for classification.
 
