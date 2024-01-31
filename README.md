@@ -42,7 +42,7 @@ accuracy_line_chart('PBMC3K','knn')
 ```
 
 <div align=center><img src="https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_knn_Accuracy_Compare.png" width = "400" height = "270"  />
-
+![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/PBMC3K/PBMC3K_knn_Accuracy_Compare.png#pic_center)
 
 ```python
 kappa(('PBMC3K','FLAT','knn','OGPCH')
