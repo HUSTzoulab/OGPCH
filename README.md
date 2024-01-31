@@ -1,7 +1,5 @@
 # OGPCH
 
-Python code for genetic marker selection using linear programming.
+Matlab code for genetic marker selection using linear programming and Python code for evaluating selected genes.
 
-Dependencies: numpy, matplotlib, scipy, sklearn. 
-
-The package main function is 
+The version of Matlab is R2020a, the required toolkit: cplex12.10
