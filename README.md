@@ -154,11 +154,12 @@ tree_plot('Mouse_E9_5')
 
 
 
+In order to show the classification effect more clearly the original samples are sampled, due to the extreme imbalance of the samples.
 ```python
 #TSNE plot
 Compare_25_plot('Mouse_E9_5')
 ```
-![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_compare_25.png)
+![png](https://github.com/HUSTzoulab/OGPCH/blob/main/pictures/Mouse_E9_5/Mouse_E9_5_compare_25_sam.png)
 
 
 
